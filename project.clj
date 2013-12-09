@@ -1,4 +1,4 @@
-(defproject ring "1.2.1"
+(defproject com.ninjudd/ring "1.2.2"
   :description "A Clojure web applications library."
   :url "https://github.com/ring-clojure/ring"
   :license {:name "The MIT License"
@@ -7,8 +7,8 @@
     [[org.clojure/clojure "1.3.0"]
      [ring/ring-core "1.2.1"]
      [ring/ring-devel "1.2.1"]
-     [ring/ring-jetty-adapter "1.2.1"]
-     [ring/ring-servlet "1.2.1"]]
+     [com.ninjudd/ring-jetty-adapter "1.2.2"]
+     [com.ninjudd/ring-servlet "1.2.2"]]
   :plugins
     [[lein-sub "0.2.4"]
      [codox "0.6.6"]]
